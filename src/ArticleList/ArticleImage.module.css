@@ -1,0 +1,25 @@
+/*
+.container {
+    background: #eee;
+    border: 1px solid #c00;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+*/
+/*
+div {
+    background-image: url();
+}
+*/
+
+.image {
+    border: 15px solid #c00;
+    border-radius: 50%;
+    left: 20px;
+    width: 200px;
+    height: 140px;
+    float: left;
+    margin-right: 40px;
+    box-shadow: 5px 10px 10px #696969;
+}
