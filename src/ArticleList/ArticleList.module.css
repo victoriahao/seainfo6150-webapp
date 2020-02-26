@@ -4,4 +4,11 @@
     margin: 20px;
     background: #999;
     border: 1px dashed #666;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    display: grid;
+    align-items: stretch;
+    align-content: stretch;
+    
 }

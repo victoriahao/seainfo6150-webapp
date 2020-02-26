@@ -2,10 +2,13 @@
     background: #c00;
     color: #fff;
     font-size: 1rem;
-    position: absolute;
+    position: relative;
     bottom: 10px;
     right: 10px;
     padding: 10px 50px;
-    text-align: cneter;
+    text-align: center;
     border-radius: 12px;
+    margin-top: 30px;
+    height: 40px;
+    
 }
