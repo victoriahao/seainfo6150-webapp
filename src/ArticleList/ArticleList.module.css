@@ -12,3 +12,57 @@
     align-content: stretch;
     
 }
+
+@supports not (display: grid) {
+	.container ul { float: left; }
+}
+
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 2rem 0 0;
+    justify-content: space-evenly;
+  }
+
+  .container ul {
+    border: 0.1rem solid #000;
+    padding: 0 3rem;
+    justify-content: space-evenly;
+  }
+
+  @media only print {
+    .container {
+      font-size: 30rem;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    
+    .container {
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-evenly;
+    }
+    .container ul {
+      padding: 2rem;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media (min-width: 900px) {
+    
+    .container {
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
+      }
+  }
+
+}

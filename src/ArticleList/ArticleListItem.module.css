@@ -45,3 +45,27 @@
     margin-right: 40px;
     box-shadow: 5px 10px 10px #696969;
 }
+
+@media (max-width: 600px) {
+    .container {
+      background-image: linear-gradient(to right, #7cb9e8, #eee 20%);
+    }
+}
+
+@media (min-width: 601px) {
+    .container {
+      background-image: linear-gradient(to right, #ffc34d, #eee 20%);
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+      background-image: linear-gradient(to right, #de4b4b, #eee 20%);
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+      background-image: linear-gradient(to right, #00802b, #eee 20%);
+    }
+}
